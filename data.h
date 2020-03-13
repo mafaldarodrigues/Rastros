@@ -1,5 +1,5 @@
-#ifndef RASTROS_CAMADADEDADOS_H
-#define RASTROS_CAMADADEDADOS_H
+#ifndef RASTROS_DATA_H
+#define RASTROS_DATA_H
 
 typedef enum {VAZIO, BRANCA, PRETA} CASA;
 
@@ -23,4 +23,4 @@ typedef struct {
     int jogador_atual;
 } ESTADO;
 
-#endif //RASTROS_CAMADADEDADOS_H
+#endif //RASTROS_DATA_H
