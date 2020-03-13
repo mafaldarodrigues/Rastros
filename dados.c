@@ -14,13 +14,10 @@ ESTADO *inicializar_estado(){
     e -> ultima_jogada.coluna = 4;
 
     for(int l = 0; l < 8; l++){
-
         for(int c = 0; c < 8; c++){
-
             e -> tab[l][c] = VAZIO;
         }
     }
-
     e -> tab[3][4] = BRANCA;
     return e;
 }
