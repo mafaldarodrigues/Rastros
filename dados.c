@@ -14,13 +14,10 @@ ESTADO *inicializar_estado(){
     e -> ultima_jogada.coluna = 4;
 
     for(int l = 0; l < 8; l++){
-
         for(int c = 0; c < 8; c++){
-
             e -> tab[l][c] = VAZIO;
         }
     }
-
     e -> tab[3][4] = BRANCA;
     return e;
 }
@@ -43,8 +40,8 @@ int obter_numero_de_jogadas(ESTADO *estado){
 //Função que permite obter o estado da casa atual
 int obter_estado_casa(ESTADO *e, COORDENADA c){
     int c, l, t;
-    c = COORDENADA.coluna;
-    l = COORDENADA.linha;
+    c = c.coluna;
+    l = c.linha;
     t = e -> tab[l][c];
     return t;
 }
