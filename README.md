@@ -3,6 +3,6 @@
 # Elementos do Grupo:
 Mafalda Martins Vieira Sequeira Rodrigues A93181
 
-João Paulo Sousa Mendes
+João Paulo Sousa Mendes A93256
 
 Tomás Santos Ogando A93174

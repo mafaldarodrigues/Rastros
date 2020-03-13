@@ -1,6 +1,11 @@
-#ifndef RASTROS_LOGICA_H
-#define RASTROS_LOGICA_H
+#ifndef LOGICA_JOGADA_H
+#define LOGICA_JOGADA_H
 
-int jogar(ESTADO *e, COORDENADA c);
+#include <stdlib.h>
+#include <stdio.h>
 
-#endif //RASTROS_LOGICA_
+int jogar(ESTADO *estado, COORDENADA coord);
+int jogada_valida(ESTADO *estado, COORDENADA coord);
+
+
+#endif //LOGICA_JOGADA_H
